@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>corner tree cafe: gallery</title>
+<style>
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.header img {
+    flex: 1;
+    width: 100%;
+    max-width: auto;
+    height: 350px;
+}
+.collection {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.gallery-item {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+.gallery-item .info {
+    padding: 15px;
+}
+.gallery-item .info h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.gallery-item .info p {
+    margin: 10px 0 0;
+    color: #777;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <a href="home.html">home</a>
+        <a href="menu.html">menu</a>
+        <a href="gallery.html">gallery</a>
+        <a href="review.html">reviews</a>
+        <a href="about.html">about</a>
+        <a href="contacts.html">contacts</a>
+    </nav>
+    <div class="header">
+        <img src="galleryheader.jpg" alt="Header Image">
+    </div>
+
+    <div class="collection">
+        <h2 style="font-size: 2em; margin-bottom: 20px;">Visual Stories from Corner Tree Cafe</h2>
+        <p style = " margin-bottom: 40px;">Explore our vibrant culinary journey through captivating images that showcase the essence of our exquisite dishes and warm ambiance.</p>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="gallery1.png" alt="gallery1">
+                <div class="info">
+                    <h3>Corner Tree Cafe</h3>
+                    <p>Main Branch</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery2.png" alt="gallery2">
+                <div class="info">
+                    <h3>Fresh Ingredients</h3>
+                    <p>Picked and Selected</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery3.png" alt="gallery3">
+                <div class="info">
+                    <h3>Our Head Chef </h3>
+                    <p>Mr. Paul Andrei</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery4.png" alt="gallery4">
+                <div class="info">
+                    <h3>Vegan Nut Roast</h3>
+                    <p>A Popular Demand</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery5.png" alt="gallery5">
+                <div class="info">
+                    <h3>Friendly Workers</h3>
+                    <p>At Power Plant Mall Branch</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery6.png" alt="gallery6">
+                <div class="info">
+                    <h3>Cafe's Interior</h3>
+                    <p>Makati Main Branch</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery7.png" alt="gallery7">
+                <div class="info">
+                    <h3>Full House</h3>
+                    <p>Satisfied Customers</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery8.png" alt="gallery8">
+                <div class="info">
+                    <h3>Chocolate Mousse with Dark Toblerone</h3>
+                    <p>Crowd's Favorite</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="gallery9.png" alt="gallery9">
+                <div class="info">
+                    <h3>Table Setting</h3>
+                    <p>Arranged by our Team</p>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="gallery.html" class="button">Load More</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p> Copyright © 2009-2020 Corner Tree Café. All Rights Reserved.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>corner tree cafe: reviews</title>
+<style>
+body {
+  background: url('reviewsbg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 800px;
+  margin: 50px 50px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  gap: 20px; 
+}
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review-card {
+    background-color:#F1F4EC;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+.review-card .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.review-card .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.review-card .user-info div {
+    margin-left: 10px;
+}
+.review-card .user-info .username {
+    font-weight: bold;
+}
+.review-card .user-info .date {
+    color: #888;
+}
+.review-card .rating {
+    color: #FFD700;
+}
+.review-card .content {
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <a href="home.html">home</a>
+        <a href="menu.html">menu</a>
+        <a href="gallery.html">gallery</a>
+        <a href="review.html">reviews</a>
+        <a href="about.html">about</a>
+        <a href="contacts.html">contacts</a>
+    </nav>
+
+    <div class="container">
+        <div class="content-section">
+            <h1 style=" margin: 0 0 10px; font-size:36px;">People say the <span style="color: #516F5A;">sweetest</span> things! Don’t they?</h1>
+            <p style="color: #516F5A; margin:0 0 20px; font-size: 20px; text-align: center;"><b>One of our hidden secrets to finding such good taste is our customers' reviews.</b></p>
+
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="user-info">
+                        <img src="1.png" alt="User logo">
+                        <div>
+                            <div class="username">Philippine Daily Inquirer</div>
+                            <div class="date">August 2009</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <div class="content">
+                      A NEW haven for vegetarians in a quiet corner of Jupiter Street in Bel-Air, Makati, is now the buzz.
+                      Corner Tree Café draws not only vegans but also resolute healthy eaters.
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="user-info">
+                        <img src="2.png" alt="User logo">
+                        <div>
+                            <div class="username">GMA News</div>
+                            <div class="date">August 2011</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★☆</div>
+                    <div class="content">
+                      Corner Tree Cafe had me at hello. Despite being tucked away behind a large tree,
+                       the tiny restaurant stands out among the larger establishments that line busy Jupiter Street in Makati.
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="user-info">
+                        <img src="3.png" alt="User logo">
+                        <div>
+                            <div class="username">ABS-CBN News</div>
+                            <div class="date">July 2012</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★☆</div>
+                    <div class="content">
+                      Chiqui Mabanta has spent years quietly disproving these misconceptions with the exquisite dishes served in
+                       her vegetarian restaurant on Jupiter Street, The Corner Tree Cafe.                    
+                  </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="user-info">
+                        <img src="4.png" alt="User logo">
+                        <div>
+                            <div class="username">Anton Diaz</div>
+                            <div class="date">n/d</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <div class="content">
+                      Corner Tree Cafe is probably the best vegetarian restaurant in Makati
+                    </div>
+                  </div>
+            </div>
+            <div class="button-container">
+            <a href="review.html" class="button">Read More</a>
+            <a href="contacts.html" class="button">Submit a Review</a>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

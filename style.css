@@ -1,0 +1,104 @@
+ /* applied in all pages*/
+body {
+    font-family: Times New Roman;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F4EC;
+    align-items: center;
+}
+nav {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #516F5A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+nav a {
+    color:  #F1F4EC;
+    font-family: Times New Roman;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+nav a:hover {
+    background-color: #C6D4B9;
+    color: #516F5A;
+}
+.footer {
+    background-color:  #516F5A;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* applied in menu and about page*/
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+h1 {
+    text-align: center;
+    padding-top: 45px;
+}
+.menu-section {
+    margin-bottom: 20px;
+}
+.menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-content img {
+    width: 45%;
+    height: auto;
+    display:flex;
+}
+.menu-items {
+    width: 50%;
+}
+.menu-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.menu-item h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  #516F5A;
+}
+.menu-item .price {
+    padding: 5px 10px;
+}
+.menu-item p {
+    margin: 10px 0;
+}
+ /* applied in gallery and reviews page*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #516F5A;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.button:hover {
+    background-color: #C6D4B9;
+    color:#516F5A
+}
+
+
+
+
+ 
+
+
+       
